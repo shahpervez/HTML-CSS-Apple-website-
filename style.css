@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+* a{
+    text-decoration: none;
+}
+
+/* body{
+    background-image: url('./images/heroes/hero 1.jpg');
+    background-repeat: no-repeat;
+} */
+/* 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.nav{
+    position: relative;
+    z-index: 2;
+
+    background-color: rgba(1, 1, 1, 0.7);
+    box-sizing: border-box;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    backdrop-filter: blur(15px);
+}
+
+.nav a:hover  {
+    color: #F5F5F7;
+}
+
+.appleIcon{
+    display: inline-block;
+    margin-right: 25px;
+    padding-bottom: 2px;
+}
+
+.searchIcon{
+    height: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.shopIcon{
+    height: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+/* is se list items image k sath a rhy hyn */
+.nav ul{
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 15px;
+    font-size: smaller;
+    font-weight: 100;
+    color: #DAD9D9;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #DAD9D9;
+}
+
+/* Hero ! ------------------------------------------------------------------------------------------------------ */
+
+.hero1{
+    height: 615px;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+
+.hero1image{
+
+    height: 615px;
+    background-image: url('./Images/Heroes/hero1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.hero1content{
+    padding-top: 400px;
+}
+
+/* Hero 2 ------------------------------------------------------------------------------------------------------ */
+
+.hero2{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+}
+
+.hero2image{
+
+    height: 580px;
+    background-image: url('./Images/Heroes/hero2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.hero2content{
+    padding-top: 30px;
+}
+
+.hero2details{
+    color: white;
+    font-size: 27px;
+}
+
+/* Hero 3 ------------------------------------------------------------------------------------------------------ */
+
+.hero3{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+}
+
+.hero3image{
+
+    height: 580px;
+    background-image: url('./Images/Heroes/hero3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.hero3content{
+    padding-top: 30px;
+}
+
+.hero3details{
+    color: #1D1D1F;
+    font-size: 27px;
+}
+
+
+.promo {
+    /* margin: 0 0; center main lagye ga div ko */
+    width: 100%;
+     /* Jaga baraabar rakhy ga */
+    text-align: center;
+}
+
+.promo1 {
+    margin: 20px 5px 0px 5px;
+    height: 580px;
+    width: 50%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+
+}
+.promo1image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-top: 50px;
+}
+
+.promo2 {
+    height: 580px;
+    width: 48%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+    padding-top: 50px;
+
+}
+.promo2image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-top: 50px;
+}
+
+.promo3 {
+    margin: 20px 5px 0px 5px;
+    height: 580px;
+    width: 50%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+
+}
+.promo3image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-top: 50px;
+}
+
+.promo4 {
+    height: 580px;
+    width: 48%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+    padding-top: 50px;
+
+}
+.promo4image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-top: 50px;
+}
+.promo5 {
+    margin: 20px 5px 0px 5px;
+    height: 580px;
+    width: 50%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+
+}
+.promo5image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-top: 50px;
+}
+
+.promo6 {
+    height: 580px;
+    width: 48%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+    padding-top: 50px;
+
+}
+.promo6image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-top: 50px;
+}
+.whitehead{
+    color: white;
+}
+
+.promo1content h2{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.promo2content h2{
+    padding-top: 20px;
+    font-weight: lighter;
+
+}
+.promo3content h2{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.promo4content h2{
+    padding-top: 20px;
+    font-weight: lighter;
+
+}
+.promo5content h2{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.promo6content h2{
+    padding-top: 20px;
+    font-weight: lighter;
+
+}
+
+.promo a{
+    color: #06c;
+}
+
+.promo a:hover{
+    text-decoration: underline;
+}
+
+.hero1catchline{
+    font-size: 30px;
+    color: #1D1D1F;
+}
+
+.hero1details{
+    font-size: 20px;
+    color: #6F6F74;
+}
+
+.learnmore{
+    text-decoration: none;
+
+    color: blue;
+    font-size: 20px;
+}
+
+.learnmore a{
+    color: #0066CC;
+}
+
+.learnmore a:hover{
+    text-decoration: underline;
+}
+.sliderImage {
+    width: 100%;
+    margin-top: 15px;
+}
+/* .slider img{
+    padding-top: 15px;
+    display: inline-block;
+} */
+/* .tv1 {
+    z-index: 1;
+    position: absolute;
+    width: 1250px;
+    height: 667px;
+    overflow: hidden;
+}
+.tv2 {
+    z-index: 3;
+    position: absolute;
+    padding-left: 200px;
+    width: 1250px;
+    height: 667px;
+    overflow: hidden;
+
+}
+.tv3 {
+    z-index: 2;
+    position: absolute;    
+    padding-left: 800px;
+    width: 1250px;
+    height: 667px;
+    overflow: hidden;
+
+
+} */
+.sliderImage{
+    overflow: hidden;
+}
+.slider{
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 10px;
+    align-content: space-evenly;
+}
+.tv1 {
+        z-index: 1;
+        position: absolute;
+        margin-right: 85%;
+        padding-left: auto;
+        overflow: hidden;
+        height: 667px;
+      }
+.tv2 {
+        z-index: 2;
+        position: absolute;
+        margin: 0 25%;
+        display: inline-block;
+        align-content: center;
+        height: 667px;
+      }
+.tv3 {
+        z-index: 3;
+        position: absolute;
+        margin-left: 85%;
+        overflow: hidden;
+        /* justify-content:: end ; */
+        display: inline-block;
+        height: 667px;
+      }
+
+
+.extra_space{
+    height: 555px;
+}
+.main_footer{
+    width: 100%;
+    background-color: rgba(245, 245, 247);
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+    font-style: normal; 
+    padding: 15px 0px;  
+}
+
+.cutfooter{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.footerList {
+    justify-content: space-evenly;
+    
+}
+.ul1{
+    display: inline-block;
+}
+.ul2{
+    display: inline-block;
+}
+.ul3{
+    display: inline-block;
+}
+.ul4{
+    display: inline-block;
+}
+.ul5{
+    display: inline-block;
+}
+.main_footer ul{
+    list-style: none;
+}
+.main_footer li{
+    padding: 5px;
+}
+.cutfooter{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.ul1{
+    display: inline-block;
+
+}
+.ul2{
+    display: inline-block;
+    position: relative;
+    bottom: 72px;
+    
+
+}
+.ul3{
+    display: inline-block;
+    position: relative;
+    bottom: 120px;
+
+
+}
+.ul4{
+    display: inline-block;
+    position: relative;
+    bottom: 71px;
+
+}
+.ul5{
+    display: inline-block;
+    position: relative;
+    bottom: 28px;
+}
+.main_footer ul{
+    list-style: none;
+    margin-right: 5%;
+}
+.main_footer a{
+    color: rgba(0, 0, 0, 0.56);
+
+}
+.main_footer li{
+    padding: 5px;
+}
+.main_footer li:hover{
+    text-decoration: underline;
+}
+
+.ulp{
+    text-decoration: underline;
+    color: blue;   
+}
+.last_p{
+    display: inline-block;
+}
+.last_footer{
+    display: inline-block;
+}
+.foots{
+    width: 70%;
+}
